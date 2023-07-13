@@ -22,10 +22,6 @@
 				{%- if maxResults %}
 					Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
 				{%- endif %}
-				Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-			</p>
-			<p class="speedlify-subhed">
-				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
 			</p>
 		</header>
 
@@ -34,7 +30,7 @@
 		</main>
 
 		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code fork on <a href="https://github.com/kdambekalns/speedlify/">GitHub</a>.
 		</footer>
 
 		<script defer src="{{ '/chartist.js' | url }}"></script>

@@ -14,6 +14,6 @@ module.exports = {
 	urls: [
 		"https://www.flownative.com/",
 		"https://www.neos.io/",
-		"https://karsten.dambekalns.de/",
+		"https://karsten.dambekalns.de/home.html",
 	]
 };
